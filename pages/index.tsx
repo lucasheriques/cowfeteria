@@ -52,11 +52,14 @@ const Home: NextPage = () => {
                   </p>
                 </li>
                 <li>
-                  <span className="font-semibold block">
+                  <span className="font-semibold block line-through">
                     Cookie de chocolate
                   </span>
                   <p className="text-sm">
-                    Com gotinhas de chocolate preto e branco.
+                    Com gotinhas de chocolate preto e branco.{" "}
+                    <span className="text-rose-300 font-semibold">
+                      Temporariamente indisponível pela falta de ingredientes.
+                    </span>
                   </p>
                 </li>
               </ul>
@@ -72,7 +75,7 @@ const Home: NextPage = () => {
               <ul className="space-y-2">
                 <li>
                   <span className="font-semibold block">Expresso</span>
-                  <p className="text-sm">Mais concentrado.</p>
+                  <p className="text-sm">Intenso e concentrado.</p>
                 </li>
                 <li>
                   <span className="font-semibold block">Café</span>
@@ -87,10 +90,18 @@ const Home: NextPage = () => {
                     cima.
                   </p>
                 </li>
+
                 <li>
                   <span className="font-semibold block">Capuccino gelado</span>
                   <p className="text-sm">
                     O mesmo que o de cima, mas pro verão. ☀️
+                  </p>
+                </li>
+                <li>
+                  <span className="font-semibold block">Coca zero</span>
+                  <p className="text-sm">
+                    Sim, nós também somos viciados em coca. Nem só de café vivem
+                    os humanos.
                   </p>
                 </li>
               </ul>
