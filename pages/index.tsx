@@ -52,13 +52,13 @@ const Home: NextPage = () => {
                   </p>
                 </li>
                 <li>
-                  <span className="font-semibold block line-through">
+                  <span className="font-semibold block">
                     Cookie de chocolate
                   </span>
                   <p className="text-sm">
                     Com gotinhas de chocolate preto e branco.{" "}
                     <span className="text-rose-300 font-semibold">
-                      Temporariamente indisponível pela falta de ingredientes.
+                      De vez em quando acompanha sorvete.
                     </span>
                   </p>
                 </li>
