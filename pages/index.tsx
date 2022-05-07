@@ -87,6 +87,12 @@ const Home: NextPage = () => {
                     cima.
                   </p>
                 </li>
+                <li>
+                  <span className="font-semibold block">Capuccino gelado</span>
+                  <p className="text-sm">
+                    O mesmo que o de cima, mas pro verão. ☀️
+                  </p>
+                </li>
               </ul>
             </div>
 
