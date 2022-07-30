@@ -12,6 +12,7 @@ const Home: NextPage = () => {
           name="description"
           content="Site da Cowfeteria - a cafeteria com um tema de mimosas"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/cow.svg" />
       </Head>
 
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
         </div>
 
         <div>
-          <Image src="/cow.svg" alt="Cowfeteria" width={300} height={300} />
+          <Image src="/cow.svg" alt="Cowfeteria" height={150} width={150} />
         </div>
 
         <div className="text-base max-w-prose mx-auto lg:max-w-none">
