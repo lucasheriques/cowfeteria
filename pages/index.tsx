@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/cow.svg" />
       </Head>
 
-      <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-white my-16 sm:space-y-8 space-y-4">
+      <main className="relative max-w-xl mx-auto px-4 text-center py-16 sm:space-y-8 space-y-4">
         <div>
           <h1 className="text-rose-400 block text-4xl text-center leading-8 font-bold mb-4">
             Bem vindo a Cowfeteria!
